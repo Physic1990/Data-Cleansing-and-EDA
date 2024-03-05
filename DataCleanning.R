@@ -5,7 +5,7 @@ library(forecast)
 library(reshape2)
 
 #Load the dataset from the Excel file
-AAPL_2020_2021 <- read_excel("C:/Users/nira0376/OneDrive - University of Idaho/Semester 6/CS 479/AAPL_2020-2021.xlsx")
+AAPL_2020_2021 <- read_excel("/AAPL_2020-2021.xlsx")
 
 #Convert the 'Date' column to Date format
 AAPL_2020_2021$Date <- as.Date(AAPL_2020_2021$Date)
